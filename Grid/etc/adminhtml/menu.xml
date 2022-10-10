@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Arjun_Grid::manager" title="Employee management" module="Arjun_Grid" sortOrder="10" resource="Arjun_Grid::manager"/>
+        <add id="Arjun_Grid::add_row" title="Employee details" module="Arjun_Grid" sortOrder="20" parent="Arjun_Grid::manager" action="grid/grid" resource="Arjun_Grid::add_row"/>
+    </menu>
+</config>
